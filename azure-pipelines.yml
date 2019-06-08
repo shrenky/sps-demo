@@ -18,4 +18,18 @@ steps:
 - script: |
     npm install
     npm run build
-  displayName: 'npm install and build'
+    npm test
+    gulp bundle --ship
+    gulp package-solution --ship
+  displayName: 'npm install and build and test and pack'
+
+- task: CopyFiles@2
+  inputs: 
+    contents: '**/*.sppkg'
+    targetFolder: $(build.artifactstagingdirectory)
+    Overwrite: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: $(build.artifactstagingdirectory)
+    artifactName: SPS-Demo-SPPKG

@@ -25,7 +25,7 @@ export default class DemoCiWebPart extends BaseClientSideWebPart<IDemoCiWebPartP
               <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
-                <span class="${ styles.label }">SPS-demo-6-241</span>
+                <span class="${ styles.label }">SPS-demo-6-29</span>
               </a>
             </div>
           </div>

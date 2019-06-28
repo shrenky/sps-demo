@@ -21,11 +21,11 @@ export default class DemoCiWebPart extends BaseClientSideWebPart<IDemoCiWebPartP
         <div class="${ styles.container }">
           <div class="${ styles.row }">
             <div class="${ styles.column }">
-              <span class="${ styles.title }">Welcome to SharePoint!</span>
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
+              <span class="${ styles.title }">Welcome to SPS Beijing!</span>
+              <p class="${ styles.subTitle }">SharePoint Framework Demo.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
-                <span class="${ styles.label }">SPS-demo-6-29-2</span>
+                <span class="${ styles.label }">SPS-demo</span>
               </a>
             </div>
           </div>

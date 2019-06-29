@@ -21,7 +21,7 @@ export default class DemoCiWebPart extends BaseClientSideWebPart<IDemoCiWebPartP
         <div class="${ styles.container }">
           <div class="${ styles.row }">
             <div class="${ styles.column }">
-              <span class="${ styles.title }">Welcome to SPS Beijing!</span>
+              <span class="${ styles.title }">Welcome to SPS Beijing! SharePoint CI/CD</span>
               <p class="${ styles.subTitle }">SharePoint Framework Demo.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
